@@ -13,7 +13,7 @@ func Abs(x float64) float64 {
 }
 
 func Yn(x int, y float64) float64 {
-	math.Yn(x, y)
+	return math.Yn(x, y)
 }
 
 func Ceil(x float64) float64 {
